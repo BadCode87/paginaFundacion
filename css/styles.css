@@ -1,0 +1,206 @@
+body{
+    background-color: whitesmoke;
+}
+
+.navbar{
+    background-color: rgb(232, 229, 229);
+    min-height: 100px;
+}
+
+.btn{
+    background-color: orangered;
+    color: #ffffff;
+    border: 1px solid white;
+}
+
+.btn:hover{
+    background-color: rgb(206, 72, 24);
+    color: #ffffff;
+}
+
+.nav-link{
+    color: black;
+    margin-right: 20px;
+}
+
+.logo-fundacion{
+    height: 100px;
+    width: 200px;
+}
+
+.nav-link:hover{
+    color: black;
+}
+
+/* COMIENZO PRIMERA SECCIÓN HERO */
+#hero{
+    background-color:rgb(232, 229, 229);
+    
+    background-image:url("../img/hero.jpg");
+    background-blend-mode:darken ;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 700px;
+    color: black;
+}
+
+.hero-text{
+    padding-top: 120px;
+    color:white;
+    margin:0 auto 60px auto;
+    text-align: center;
+
+}
+#cartas h2{
+    margin-top: 30px;
+    text-align: center;
+    font-size:60px;
+}
+
+#cartas p{
+    text-align: center;
+    padding: 15px 0;
+}
+
+.card-container{
+    margin: 30px auto;
+    min-width: 380px;
+   
+}
+
+.card{
+    height: 380px;
+    min-height: 350px;
+    border: 1px solid lightskyblue;
+    margin-bottom: 20px;
+    
+    
+}
+
+.card-body{
+    color: white;
+    background-color: rgb(102, 193, 223);
+    height: 180px;
+    
+    
+}
+.card-img-top{
+    height: 200px;
+    /* max-height: 200px; */
+    border-bottom: 1px solid lightskyblue;
+}
+
+#vision-video{
+    margin-bottom: 10px;
+}
+
+
+#mapa{
+    margin-top: 20px;
+    
+    
+}
+
+.titulo-mapa{
+    text-align: center;
+    padding: 15px;
+    font-size: 2.4em;
+}
+
+.mapa-fundacion{
+    margin-top: 20px;
+    max-height: 500px;
+}
+
+#proyectos{
+    margin-top: 25px;
+}
+
+#titulo-proyectos{
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 2.3em;
+}
+
+
+.caja-proyecto{
+    margin-top: 15px;
+    text-align: center;
+    max-height: 250px;
+}
+
+.foto-proyecto{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    align-items: center;
+}
+
+.parrafo-proyecto{
+    /* text-align: center; */
+    font-weight: 600;
+}
+
+#pie-pagina{
+    background-color:black;
+    color: whitesmoke;
+}
+
+.contenedor-footer{
+    width:max-content;
+}
+
+
+
+.fila1{
+    width:100%;
+    background-color: black;
+    margin: 0;
+    height:200px;
+    color: whitesmoke;
+    text-align: center;
+
+}
+
+.img-footer{
+    height:150px;
+    width: 150px;
+    justify-items: center;
+    margin: 18px 0;
+    padding: 10px;
+}
+
+#b2-titulo{
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+#b2-parrafo{
+    padding: 5px;
+    font-size: 0.9em;
+}
+
+#b3-titulo{
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+.iconos-footer{
+    margin: 5px;
+    padding: 10px;
+}
+
+.fa-facebook{
+    background-color: blue;
+}
+
+.fila2{
+    margin: 0;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(14, 13, 13);
+    text-align: center;
+    line-height: 40px;
+    color: whitesmoke;
+}
