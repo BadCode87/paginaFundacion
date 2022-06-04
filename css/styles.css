@@ -1,206 +1,218 @@
-body{
-    background-color: whitesmoke;
+body {
+  background-color: whitesmoke;
 }
 
-.navbar{
-    background-color: rgb(232, 229, 229);
-    min-height: 100px;
+.navbar {
+  background-color: rgb(232, 229, 229);
+  min-height: 100px;
 }
 
-.btn{
-    background-color: orangered;
-    color: #ffffff;
-    border: 1px solid white;
+.btn {
+  background-color: orangered;
+  color: #ffffff;
+  border: 1px solid white;
 }
 
-.btn:hover{
-    background-color: rgb(206, 72, 24);
-    color: #ffffff;
+.btn:hover {
+  background-color: rgb(206, 72, 24);
+  color: #ffffff;
 }
 
-.nav-link{
-    color: black;
-    margin-right: 20px;
+.nav-link {
+  color: black;
+  margin-right: 20px;
 }
 
-.logo-fundacion{
-    height: 100px;
-    width: 200px;
+.logo-fundacion {
+  height: 80px;
+  width: 180px;
 }
 
-.nav-link:hover{
-    color: black;
+.nav-link:hover {
+  color: black;
 }
 
 /* COMIENZO PRIMERA SECCIÓN HERO */
-#hero{
-    background-color:rgb(232, 229, 229);
-    
-    background-image:url("../img/hero.jpg");
-    background-blend-mode:darken ;
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    min-height: 700px;
-    color: black;
+#hero {
+  background-color: rgb(232, 229, 229);
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/hero2.png");
+  /* background-blend-mode:darken ; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 700px;
+  color: black;
 }
 
-.hero-text{
-    padding-top: 120px;
-    color:white;
-    margin:0 auto 60px auto;
-    text-align: center;
-
+.hero-text {
+  padding-top: 120px;
+  color: white;
+  margin: 0 auto 60px auto;
+  text-align: center;
 }
-#cartas h2{
-    margin-top: 30px;
-    text-align: center;
-    font-size:60px;
-}
-
-#cartas p{
-    text-align: center;
-    padding: 15px 0;
+#cartas h2 {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 60px;
 }
 
-.card-container{
-    margin: 30px auto;
-    min-width: 380px;
-   
+#cartas p {
+  text-align: center;
+  padding: 15px 0;
 }
 
-.card{
-    height: 380px;
-    min-height: 350px;
-    border: 1px solid lightskyblue;
-    margin-bottom: 20px;
-    
-    
+.card-container {
+  margin: 30px auto;
+  min-width: 380px;
 }
 
-.card-body{
-    color: white;
-    background-color: rgb(102, 193, 223);
-    height: 180px;
-    
-    
-}
-.card-img-top{
-    height: 200px;
-    /* max-height: 200px; */
-    border-bottom: 1px solid lightskyblue;
+.card {
+  height: 380px;
+  min-height: 350px;
+  border: 1px solid rgba(20, 33, 173, 255);
+  margin-bottom: 20px;
 }
 
-#vision-video{
-    margin-bottom: 10px;
+.enlaces-cartas:hover {
+  text-decoration: none;
 }
 
-
-#mapa{
-    margin-top: 20px;
-    
-    
+.card-body {
+  color: white;
+  background-color: rgba(20, 33, 173, 255);
+  height: 180px;
+}
+.card-img-top {
+  height: 200px;
+  /* max-height: 200px; */
+  border-bottom: 1px solid rgba(20, 33, 173, 255);
 }
 
-.titulo-mapa{
-    text-align: center;
-    padding: 15px;
-    font-size: 2.4em;
+#vision-video {
+  margin-bottom: 10px;
 }
 
-.mapa-fundacion{
-    margin-top: 20px;
-    max-height: 500px;
+/* #mapa {
+  margin-top: 20px;
+  max-height: 620px;
 }
 
-#proyectos{
-    margin-top: 25px;
+.titulo-mapa {
+  text-align: center;
+  padding: 15px;
+  font-size: 2.4em;
 }
 
-#titulo-proyectos{
-    text-align: center;
-    margin-bottom: 15px;
-    font-size: 2.3em;
+.mapa-fundacion {
+  margin-top: 20px;
+  max-height: 500px;
+} */
+
+/* Seccion colaboradores */
+#colaboradores {
+  margin-top: 30px;
+}
+.caja-colab {
+  margin-top: 15px;
+  text-align: center;
+  max-height: 250px;
 }
 
-
-.caja-proyecto{
-    margin-top: 15px;
-    text-align: center;
-    max-height: 250px;
+.imagenes-colab {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 1px solid rgba(15, 178, 177, 255);
+  margin: 15px auto;
+  align-items: center;
 }
 
-.foto-proyecto{
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    align-items: center;
+#proyectos {
+  margin-top: 30px;
 }
 
-.parrafo-proyecto{
-    /* text-align: center; */
-    font-weight: 600;
+#titulo-proyectos {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 2.3em;
 }
 
-#pie-pagina{
-    background-color:black;
-    color: whitesmoke;
+.caja-proyecto {
+  margin-top: 15px;
+  text-align: center;
+  max-height: 250px;
 }
 
-.contenedor-footer{
-    width:max-content;
+.foto-proyecto {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  align-items: center;
 }
 
-
-
-.fila1{
-    width:100%;
-    background-color: black;
-    margin: 0;
-    height:200px;
-    color: whitesmoke;
-    text-align: center;
-
+.parrafo-proyecto {
+  /* text-align: center; */
+  font-weight: 600;
 }
 
-.img-footer{
-    height:150px;
-    width: 150px;
-    justify-items: center;
-    margin: 18px 0;
-    padding: 10px;
+#pie-pagina {
+  background-color: black;
+  color: whitesmoke;
 }
 
-#b2-titulo{
-    padding: 10px;
-    font-size: 1.5em;
+.contenedor-footer {
+  width: max-content;
 }
 
-#b2-parrafo{
-    padding: 5px;
-    font-size: 0.9em;
+.fila1 {
+  width: 100%;
+  background-color: black;
+  margin: 0;
+  height: 200px;
+  color: whitesmoke;
+  text-align: center;
 }
 
-#b3-titulo{
-    padding: 10px;
-    font-size: 1.5em;
+.img-footer {
+  height: 150px;
+  width: 150px;
+  justify-items: center;
+  margin: 18px 0;
+  padding: 10px;
 }
 
-.iconos-footer{
-    margin: 5px;
-    padding: 10px;
+#b2-titulo {
+  padding: 10px;
+  font-size: 1.5em;
 }
 
-.fa-facebook{
-    background-color: blue;
+#b2-parrafo {
+  padding: 5px;
+  font-size: 0.9em;
 }
 
-.fila2{
-    margin: 0;
-    width: 100%;
-    height: 40px;
-    background-color: rgb(14, 13, 13);
-    text-align: center;
-    line-height: 40px;
-    color: whitesmoke;
+#b3-titulo {
+  padding: 10px;
+  font-size: 1.5em;
+}
+
+.iconos-footer {
+  margin: 5px;
+  padding: 10px;
+}
+
+.fa-facebook {
+  background-color: blue;
+}
+
+.fila2 {
+  margin: 0;
+  width: 100%;
+  height: 40px;
+  background-color: rgb(14, 13, 13);
+  text-align: center;
+  line-height: 40px;
+  color: whitesmoke;
 }
