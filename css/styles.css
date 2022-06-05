@@ -18,6 +18,11 @@ body {
   color: #ffffff;
 }
 
+#boton-menu{
+  padding: 5px 5px 5px 15px;
+  margin: 10px;
+  
+}
 .nav-link {
   color: black;
   margin-right: 20px;
@@ -65,7 +70,7 @@ body {
 
 .card-container {
   margin: 30px auto;
-  min-width: 380px;
+  min-width: 360px;
 }
 
 .card {
@@ -113,6 +118,14 @@ body {
 /* Seccion colaboradores */
 #colaboradores {
   margin-top: 30px;
+  max-height: 700px;
+  background-color: rgba(43,132,232,255);
+}
+
+#titulo-colaboradores{
+  text-align: center;
+  font-size: 2.3em;
+  padding-top: 10px;
 }
 .caja-colab {
   margin-top: 15px;
@@ -123,7 +136,7 @@ body {
 .imagenes-colab {
   height: 200px;
   width: 200px;
-  border-radius: 50%;
+  border-radius: 10px;
   border: 1px solid rgba(15, 178, 177, 255);
   margin: 15px auto;
   align-items: center;
@@ -160,10 +173,14 @@ body {
 #pie-pagina {
   background-color: black;
   color: whitesmoke;
+  
+  
+  
 }
-
 .contenedor-footer {
   width: max-content;
+  height: fit-content;
+  
 }
 
 .fila1 {
@@ -215,4 +232,44 @@ body {
   text-align: center;
   line-height: 40px;
   color: whitesmoke;
+}
+
+
+
+@media (max-width:430px){
+  .imagenes-colab{
+    height: 100px;
+    width: 100px;
+    
+  }
+
+  /* #pie-pagina{
+    height: 700px;
+  } */
+
+  #hero {
+    
+    background-color: rgb(232, 229, 229);
+  
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../img/hero2.png");
+    /* background-blend-mode:darken ; */
+    width: fit-content;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:80%;
+    min-height: 400px;
+    max-height: 450px;
+    color: black;
+  }
+
+  #proyectos{
+    display: none;
+  }
+
+  #logofooter{
+    height: 75px;
+    width: 75px;
+  }
+
 }

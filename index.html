@@ -18,14 +18,15 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg" id="nav">
       <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""
           class="logo-fundacion img-fluid" /></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse"
+      <button class="navbar-toggler" id="boton-menu" type="button"
+        data-toggle="collapse"
         data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false"
         aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"><box-icon name='menu' size='lg'></box-icon></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -172,17 +173,17 @@
         </div>
 
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-4 col-4">
             <div class="caja-colab">
               <img src="img/logo.jpg" alt="" class="imagenes-colab">
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 col-4">
             <div class="caja-colab">
               <img src="img/logo.jpg" alt="" class="imagenes-colab">
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 col-4">
             <div class="caja-colab">
               <img src="img/logo.jpg" alt="" class="imagenes-colab">
             </div>
@@ -190,17 +191,17 @@
         </div>
 
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-4 col-4">
             <div class="caja-colab">
               <img src="img/logo.jpg" alt="" class="imagenes-colab">
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 col-4">
             <div class="caja-colab">
               <img src="img/logo.jpg" alt="" class="imagenes-colab">
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 col-4">
             <div class="caja-colab">
               <img src="img/logo.jpg" alt="" class="imagenes-colab">
             </div>
@@ -218,7 +219,7 @@
       <div class="container">
         <h3 id="titulo-proyectos">Proyectos destacados</h3>
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-4 col-6">
             <div class="caja-proyecto">
               <img src="img/proyecto1.jpg" alt="" class="img-fluid
                 foto-proyecto">
@@ -246,14 +247,14 @@
     <footer id="pie-pagina container">
 
       <div class="row fila1">
-        <div class="col-md-4">
+        <div class="col-md-4 col-4" id="logofooter">
           <img src="img/logo2.jpg" alt="" class="img-footer">
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 col-4">
           <h5 id="b2-titulo">Contacto</h5>
           <p id="b2-parrafo">observatorionuble@gmail.com</p>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 col-4">
           <h4 id="b3-titulo">Siguenos</h4>
           <a
             href="https://www.facebook.com/pages/category/Local-service/Fundaci%C3%B3n-Observatorio-%C3%91uble-109123757235423/"><img
@@ -268,12 +269,10 @@
             reservados.<small>
             </div>
           </div>
-
-
         </footer>
 
         <!-- Optional JavaScript; choose one of the two! -->
-
+        <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
         <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
         <script
           src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
