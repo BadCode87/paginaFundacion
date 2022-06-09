@@ -102,7 +102,9 @@ body {
 
 
 #vision-video {
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
+  
+  padding: 30px;
 }
 
 /* #mapa {
@@ -128,11 +130,13 @@ iframe {
 
 /* Seccion colaboradores */
 #colaboradores {
-  margin-top: 30px;
+  /* margin-top: 30px; */
   max-height: 700px;
   background-color: rgba(43, 132, 232, 1);
   color: whitesmoke;
+  padding: 20px 0 50px 0;
 }
+
 
 #titulo-colaboradores {
   text-align: center;
@@ -148,16 +152,33 @@ iframe {
 
 .imagenes-colab {
   height: 200px;
-  width: 200px;
+  width: 280px;
   border-radius: 10px;
-  border: 1px solid rgba(15, 178, 177, 255);
-  margin: 15px auto;
+ /*  border: 1px solid rgb(247, 247, 247); */
+  margin: 0 auto;
   align-items: center;
+}
+
+.carousel-indicators {
+  position: absolute;
+  right: 0;
+  bottom: -30%;
+  left: 0;
+  z-index: 15;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-left: 0;
+  margin-right: 15%;
+  margin-left: 15%;
+  list-style: none;
 }
 
 #proyectos {
   margin-top: 30px;
-  min-height: 450px;
+  min-height: 200px;
+  display: none;
 }
 
 #titulo-proyectos {
@@ -325,6 +346,23 @@ iframe {
     color: whitesmoke;
   }
 
+  .carousel-indicators {
+    /* display: none; */
+    position: absolute;
+    right: 0;
+    bottom: -45%;
+    left: 0;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: none;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+  }
+
   #fila2-colab {
     padding-bottom: 10px;
   }
@@ -369,6 +407,23 @@ iframe {
   .imagenes-colab {
     height: 100px;
     width: 100px;
+  }
+
+  .carousel-indicators {
+    /* display: none; */
+    position: absolute;
+    right: 0;
+    bottom: -45%;
+    left: 0;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
   }
 
   /* #pie-pagina{
