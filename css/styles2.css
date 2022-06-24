@@ -1,0 +1,125 @@
+/* 
+@media ( (min-width: 768px) and (max-width:1366)) {
+  .hero-text {
+    font-size: 0.74em;
+    padding-top: 30px;
+  }
+
+  #hero-p2 {
+    display: none;
+  }
+
+  .imagenes-colab {
+    height: 100px;
+    width: 100px;
+  }
+
+  /* #pie-pagina{
+    height: 700px;
+  } */
+
+ /*  #hero {
+    background-color: rgb(186, 12, 12);
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../img/hero2.png");
+    /* background-blend-mode:darken ; 
+    width: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:bottom;
+    min-height: 400px;
+    max-height: 450px;
+    color: black;
+  }
+
+  #cartas h2 {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 48px;
+  }
+
+  .titulo-cartas{
+    font-size: 24px;
+  }
+
+  .txt-caja{
+    font-size: 14px;
+  }
+
+
+
+  #proyectos {
+    display: none;
+  }
+
+  .fila1 {
+    min-height: 100px;
+  }
+
+  .fila2 {
+    min-height: 10px;
+  }
+
+  .fila2 .col-12 small {
+    font-size: 0.5;
+    text-align: justify;
+  }
+
+  .img-footer {
+    height: 110px;
+    width: 110px;
+    justify-items: center;
+    margin: 18px 0;
+    padding: 0px;
+  }
+
+
+  #titulo-colaboradores {
+    font-size: 1.6em;
+    color: whitesmoke;
+  }
+
+  #fila2-colab {
+    padding-bottom: 10px;
+  }
+
+  #b2-titulo {
+    margin-bottom: 0px;
+    font-size: 1.1em;
+  }
+
+  #b2-parrafo {
+    margin: 0 0;
+    font-size: 0.8em;
+  }
+
+  #b3-titulo {
+    margin-bottom: 0px;
+    font-size: 1.1em;
+  }
+
+  
+#logofooter{
+  width: 100%;
+}
+  
+
+  .fila1{
+    max-height: 380px;
+    min-width: max-content;
+    
+  }
+
+  .fila2 {
+    line-height: 1.4;
+    min-height: 60px;
+    font-size: smaller;
+  }
+
+  .iconos-footer {
+    margin-bottom: 5px;
+    padding-top: 0px;
+
+  }
+}  */

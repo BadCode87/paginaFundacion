@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+  }
 html{
   scroll-behavior: smooth;
 }
@@ -100,6 +105,10 @@ body {
   /* max-height: 200px; */
   border-bottom: 1px solid rgba(20, 33, 173, 1);
 
+}
+
+.card-text{
+  font-size: 0.87em;
 }
 
 
@@ -220,44 +229,97 @@ iframe {
   height: fit-content;
 }
 
-.fila1 {
+/* .fila1 {
   width: 100%;
   background-color: black;
   margin: 0;
   height: 200px;
   color: whitesmoke;
   text-align: center;
-}
+} */
 
 .img-footer {
-  height: 150px;
-  width: 150px;
+  height: 200px;
+  width: 200px;
   justify-items: center;
-  margin: 18px 0;
-  padding: 10px;
+  /* margin: 18px 0; */
+  /* padding: 10px; */
 }
 
 #b2-titulo {
   padding: 10px;
-  font-size: 1.5em;
+  font-size: 1.8em;
 }
 
 #b2-parrafo {
   padding: 5px;
-  font-size: 0.9em;
+  font-size: 1.2em;
 }
 
 #b3-titulo {
   padding: 10px;
-  font-size: 1.5em;
+  font-size: 1.8em;
 }
 
-.iconos-footer {
+#footer{
+ display: flex;
+  width: 100%;
+  background-color: black;
+  height: fit-content;
+  color: white;
+  text-align: center;
+  padding: 0;
+  align-items: center;
+}
+
+#logo-footer{
+  padding-top: 40px;
+  align-items: center;
+}
+
+
+#contenedor-filas{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+#fila1{
+  min-height: 300px;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  
+}
+
+#fila2 {
+  line-height: 1.4;
+  height: 65px;
+  font-size: smaller;
+  text-align: center;
+  padding-top: 18px;
+  width:100%;
+  margin: 0;
+  background-color: rgb(32, 31, 31);
+  
+}
+#iconofacebook {
+  margin-bottom: 5px;
+  padding-top: 0px;
+  height: 40px;
+  width: 40px;
+}
+
+small{
+  font-size: medium;
+}
+
+/* .iconos-footer {
   margin: 5px;
   padding: 10px;
-}
+} */
 
-.fa-facebook {
+/* .fa-facebook {
   background-color: blue;
 }
 
@@ -269,7 +331,45 @@ iframe {
   text-align: center;
   line-height: 40px;
   color: whitesmoke;
-}
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* AQUI VAN LOS CAMBIOS PARA DISPOSITIVOS MOVILES */
 /* ======================================================================= */
@@ -301,7 +401,8 @@ iframe {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url("../img/hero2.png");
     /* background-blend-mode:darken ; */
-    width: fit-content;
+    min-width: fit-content;
+    width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 80%;
@@ -322,18 +423,7 @@ iframe {
     display: none;
   }
 
-  .fila1 {
-    min-height: 380px;
-  }
-
-  .fila2 {
-    min-height: 100px;
-  }
-
-  .fila2 .col-12 small {
-    font-size: 0.5;
-    text-align: justify;
-  }
+ 
 
   .img-footer {
     height: 110px;
@@ -382,24 +472,98 @@ iframe {
     margin-bottom: 0px;
   }
 
-  .fila2 {
-    line-height: 1.4;
-    min-height: 60px;
-    font-size: smaller;
+  #footer{
+    width: 100%;
+    background-color: black;
+    height: 450px;
+    color: white;
+    text-align: center;
+    padding: 0;
+  }
+  #contenedor-filas{
+    margin: 0;
+    padding: 0;
+    width: 100%;
   }
 
-  .iconos-footer {
+  #fila1{
+    height: 380px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    
+  }
+
+  #fila2 {
+    line-height: 1.4;
+    height: 65px;
+    font-size: smaller;
+    text-align: center;
+    padding-top: 18px;
+    width:100%;
+    margin: 0;
+    background-color: rgb(32, 31, 31);
+    
+  }
+
+  #iconofacebook {
     margin-bottom: 5px;
     padding-top: 0px;
+    height: 30px;
+    width: 30px;
+  }
+  small{
+    font-size: smaller;
   }
 
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* AQUI ESTAN LAS MODIFICACIONES PARA PANTALLAS DE MEDIANO TAMAÑO */
 
-@media ((min-width: 431px) and (max-width: 767px)) {
+@media ((max-width: 767px)){
   .hero-text {
-    font-size: 0.74em;
+    font-size: 1.54em;
     padding-top: 30px;
   }
 
@@ -439,8 +603,8 @@ iframe {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url("../img/hero2.png");
     /* background-blend-mode:darken ; */
-    width: auto;
-    background-size: cover;
+    
+    background-size:cover;
     background-repeat: no-repeat;
     background-position:bottom;
     min-height: 400px;
@@ -455,11 +619,11 @@ iframe {
   }
 
   .titulo-cartas{
-    font-size: 24px;
+    font-size: 48px;
   }
 
   .txt-caja{
-    font-size: 14px;
+    font-size: 20px;
   }
 
 
@@ -468,18 +632,8 @@ iframe {
     display: none;
   }
 
-  .fila1 {
-    min-height: 100px;
-  }
 
-  .fila2 {
-    min-height: 10px;
-  }
-
-  .fila2 .col-12 small {
-    font-size: 0.5;
-    text-align: justify;
-  }
+  
 
   .img-footer {
     height: 110px;
@@ -514,134 +668,43 @@ iframe {
     font-size: 1.1em;
   }
 
-  .fila1{
-    max-height: 380px;
-    min-height: 320px;
+  #footer{
+    width: 100%;
+    background-color: black;
+    height: 450px;
+    color: white;
+    text-align: center;
+    padding: 0;
+  }
+  #contenedor-filas{
+    margin: 0;
+    padding: 0;
+    width: 100%;
   }
 
-  .fila2 {
-    line-height: 1.4;
-    min-height: 60px;
-    font-size: smaller;
-  }
-
-  .iconos-footer {
-    margin-bottom: 5px;
-    padding-top: 0px;
-
-  }
-}
-
-@media ( (min-width: 768px) and (max-width:1366)) {
-  .hero-text {
-    font-size: 0.74em;
+  #fila1{
+    height: 380px;
+    text-align: center;
     padding-top: 30px;
-  }
-
-  #hero-p2 {
-    display: none;
-  }
-
-  .imagenes-colab {
-    height: 100px;
-    width: 100px;
-  }
-
-  /* #pie-pagina{
-    height: 700px;
-  } */
-
-  #hero {
-    background-color: rgb(232, 229, 229);
-
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url("../img/hero2.png");
-    /* background-blend-mode:darken ; */
-    width: auto;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position:bottom;
-    min-height: 400px;
-    max-height: 450px;
-    color: black;
-  }
-
-  #cartas h2 {
-    margin-top: 15px;
-    text-align: center;
-    font-size: 48px;
-  }
-
-  .titulo-cartas{
-    font-size: 24px;
-  }
-
-  .txt-caja{
-    font-size: 14px;
-  }
-
-
-
-  #proyectos {
-    display: none;
-  }
-
-  .fila1 {
-    min-height: 100px;
-  }
-
-  .fila2 {
-    min-height: 10px;
-  }
-
-  .fila2 .col-12 small {
-    font-size: 0.5;
-    text-align: justify;
-  }
-
-  .img-footer {
-    height: 110px;
-    width: 110px;
-    justify-items: center;
-    margin: 18px 0;
-    padding: 0px;
-  }
-
-
-  #titulo-colaboradores {
-    font-size: 1.6em;
-    color: whitesmoke;
-  }
-
-  #fila2-colab {
-    padding-bottom: 10px;
-  }
-
-  #b2-titulo {
-    margin-bottom: 0px;
-    font-size: 1.1em;
-  }
-
-  #b2-parrafo {
-    margin: 0 0;
-    font-size: 0.8em;
-  }
-
-  #b3-titulo {
-    margin-bottom: 0px;
-    font-size: 1.1em;
-  }
-
-  .fila1{
-    max-height: 380px;
     
   }
 
-  .fila2 {
+  #fila2 {
     line-height: 1.4;
-    min-height: 60px;
+    height: 65px;
     font-size: smaller;
+    text-align: center;
+    padding-top: 18px;
+    width:100%;
+    margin: 0;
+    background-color: rgb(32, 31, 31);
+    
   }
+
+  small{
+    font-size: small;
+  }
+
 
   .iconos-footer {
     margin-bottom: 5px;
@@ -649,3 +712,4 @@ iframe {
 
   }
 }
+
